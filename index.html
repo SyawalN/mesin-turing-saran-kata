@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Turing Machine</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content-box">
+
+        <div class="title-box">
+          <h1>TURING MACHINE: SUGGEST WORD (SARAN KATA)</h1>
+          <br />
+          <h2>KELOMPOK 7</h2>
+          <br />
+        </div>
+        
+        <div class="input-box">
+          <form>
+            <label for="inputKata">Input kata:</label>
+            <input class="" type="text" id="inputKata" placeholder="Input kata 'Google'" />
+            <button type="button" onclick="proses()">Cek saran untuk kata</button>
+          </form>
+        </div>
+
+        <div class="turing-box" id="turing-machine">
+          <label>Proses</label>
+          <table id="transisi-tape">
+            <tr id="head"></tr>
+            <tr id="tape"></tr>
+          </table>
+          <h3 id="process-text">Hasil</h3>
+          <h3 id="result"></h3>
+          <br />
+          <p id="saran-kata"></p>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
